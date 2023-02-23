@@ -1,0 +1,90 @@
+body {
+  background-image: url("rlAR4Z.jpg");
+}
+
+.name {
+    font-size: 20px;
+    color: black;
+    margin-top: 120px;
+}
+.navbar{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+}
+.navbar .logo{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+    background-size:cover;
+    margin-left: -500px;
+    }
+    
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: #ba55d3;
+    border-radius: 2px;
+}
+.container{
+    text-align: center;
+    margin:0 auto;
+    margin-top: 160px;
+}
+input[type="text"],input[type="password"]{
+    margin-top: 40px;
+    height: 45px;
+    width: 300px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding-left: 40px;
+}
+.btn-login{
+    padding: 15px 25px;
+    border: none;
+    background-color: #27ae60;
+    color: #fff;
+}
+#jobs {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#jobs td, #jobs th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#jobs tr:nth-child(even){background-color: #f2f2f2;}
+
+#jobs tr:hover {background-color: #ddd;}
+
+#jobs th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
